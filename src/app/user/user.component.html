@@ -1,0 +1,6 @@
+<div class="media" *ngIf="userLogged">
+  <img [src]="userLogged.image" class="align-self-start mr-3 userphoto" alt="...">
+  <div class="media-body">
+    <h5 class="mt-0 infouser">{{userLogged.name}} {{userLogged.surname}}</h5>
+  </div>
+</div>

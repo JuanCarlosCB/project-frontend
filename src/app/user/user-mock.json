@@ -1,0 +1,136 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "José Luis",
+      "surname": "El Fary",
+      "age": 69,
+      "city" : "Madrid",
+      "image": "assets/user1.jpg",
+      "stories": [
+        {
+          "message": "Déjalos que caminen como ellos camelen",
+          "publicationDate": "2019-04-27T15:38:51.394Z"
+        },
+        {
+          "message": "Me voy pa' la discoteca, a buscar mi chirifú",
+          "publicationDate": "2019-05-27T15:38:51.394Z"
+        },
+        {
+          "message": "Esto va a ser un melocotonazo de miedo",
+          "publicationDate": "2019-06-27T15:38:51.394Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "María",
+      "surname": "Dela Luz",
+      "age": 21,
+      "city" : "New York",
+      "image": "assets/user2.jpg",
+      "stories": [
+        {
+          "message": "Hoy es día de sofa y mantita.",
+          "publicationDate": "2018-01-27T15:38:51.394Z"
+        },
+        {
+          "message": "Hay que disfrutar de los pequeños placeres de la vida.",
+          "publicationDate": "2018-02-27T15:38:51.394Z"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Tatiana",
+      "surname": "Cristalina",
+      "age": 22,
+      "city" : "Berlin",
+      "image": "assets/user3.jpg",
+      "stories": [
+        {
+          "message": "La paz es mirar el cielo azul.",
+          "publicationDate": "2018-04-27T15:38:51.394Z"
+        },
+        {
+          "message": "Ojalá pudieramos volar para tener más libertad.",
+          "publicationDate": "2018-05-27T15:38:51.394Z"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Jesús",
+      "surname": "Cristiano",
+      "age": 23,
+      "city" : "Praga",
+      "image": "assets/user4.jpg",
+      "stories": [
+        {
+          "message": "Hoy ha sido un día duro en el trabajo. Todo sea para mantener a la familia.",
+            "publicationDate": "2018-06-27T15:38:51.394Z"
+        },
+        {
+          "message": "No podría imaginar una vida sin mis hijos. Los quiero mucho.",
+          "publicationDate": "2018-07-27T15:38:51.394Z"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Raúl",
+      "surname": "Balón",
+      "age": 24,
+      "city" : "Lisboa",
+      "image": "assets/user5.jpg",
+      "stories": [
+        {
+          "message": "¡La pachanga de hoy ha estado genial!",
+          "publicationDate": "2018-08-27T15:38:51.394Z"
+        },
+        {
+          "message": "¡El fútbol es mi pasión!",
+          "publicationDate": "2018-09-27T15:38:51.394Z"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Laura",
+      "surname": "Rima Concura",
+      "age": 25,
+      "city" : "Lisboa",
+      "image": "assets/user6.jpg",
+      "stories": [
+        {
+          "message": "Si te digo la verdad, escribo así de casualidad.",
+          "publicationDate": "2018-10-27T15:38:51.394Z"
+        },
+        {
+          "message": "Lágrimas de desesperación, rimas con inspiración.",
+          "publicationDate": "2018-11-27T15:38:51.394Z"
+        }
+      ]
+    }
+  ],
+  "friend":[
+    {
+      "id":1,
+      "iduser1": 1,
+      "iduser2": 2,
+      "state": "friend"
+    },
+    {
+      "id":2,
+      "iduser1": 1,
+      "iduser2": 3,
+      "state": "friend"
+    },
+    {
+      "id":3,
+      "iduser1": 1,
+      "iduser2": 4,
+      "state": "pending"
+    }
+  ]
+}

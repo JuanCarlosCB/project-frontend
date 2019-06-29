@@ -1,0 +1,18 @@
+<!-- <div class="form-group" *ngIf="user">
+  <label for="comment">Say something:</label>
+  <textarea class="form-control" rows="5" id="comment" (ngModel)="user.mesage"></textarea>
+  <button type="button" name="button" (click)="saveMessageUserLogged(user)">Public history</button>
+</div> -->
+<!-- <div class="form">
+  <form *ngIf="user">
+    <div>
+        <label for="post">Say something:</label>
+        <input type="text" [(ngModel)] = "user.message" [ngModelOptions]="{standalone: true}"/>
+    </div>
+    <div>
+        <input type="submit" (click)="saveMessageUserLogged(user)" value="Public history"/>
+    </div>
+  </form>
+</div> -->
+<p><textarea class="text" [(ngModel)]="message"></textarea></p>
+ <p><input type="button" class="buttonsave" (click)="saveMessageUserLogged()" value="Public history"></p>

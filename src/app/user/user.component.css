@@ -1,0 +1,13 @@
+.media{
+  width: 107vh;
+  border: 1px solid #000000;
+  margin-left: 50vh;
+  margin-top: 2vh;
+  position: relative;
+}
+
+.userphoto{
+  height: 30vh;
+  width: 35vh;
+  margin: 4vh;
+}

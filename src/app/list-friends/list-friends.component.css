@@ -1,0 +1,16 @@
+.list{
+  width: 60vh;
+  margin: 3vh;
+}
+
+ul{
+  list-style: none;
+}
+
+h5{
+  margin-left: 20vh;
+}
+
+p{
+  margin-left: 20vh;
+}

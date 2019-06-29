@@ -1,0 +1,17 @@
+.info{
+  border: 1px solid #000000;
+  text-align: center;
+  margin-left: 70vh;
+  margin-top: 2vh;
+  width: 60vh;
+  padding: 1vh;
+}
+
+h5{
+  text-align: left;
+}
+
+p{
+  text-align: left;
+  margin-left: 2vh;
+}

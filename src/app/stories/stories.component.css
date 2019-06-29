@@ -1,0 +1,10 @@
+.stories{
+  width: 120vh;
+  margin-left: 50vh;
+  overflow: auto;
+  height: 40vh;
+}
+
+ul{
+  list-style: none;
+}

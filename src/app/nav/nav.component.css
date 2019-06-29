@@ -1,0 +1,15 @@
+.nav{
+  width: 45vw;
+  right: 50vh;
+  left: 50vh;
+  background-color: #ECE9E9;
+}
+
+.list{
+  padding: 1vh;
+}
+
+.list li{
+  padding-left: 3vh;
+  padding-right: 3vh;
+}
